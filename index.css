@@ -1,0 +1,28 @@
+#menu {
+    height: 100vh;
+    background-color: black;
+}
+
+img {
+    background-color: white;
+    border-radius: 20px;
+}
+
+button {
+    height: 12vh;
+    background-color: transparent;
+    border: none;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+
+#items {
+    height: 45vh;
+    font-size: 14px;
+    overflow-y: scroll;
+}
+
+.customer {
+    font-size: 12px;
+}
