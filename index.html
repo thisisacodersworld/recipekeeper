@@ -17,7 +17,7 @@
             <button class="col-6 text-start fw-lighter">&larr; Back</button>
             <button class="col-6 text-end pb-2" style="font-size: 24px"><i class="fa fa-home"></i></button>
           </div>
-          <div class="mx-5 font-monospace border-bottom">
+          <div class="selction mx-5 font-monospace border-bottom" onclick="chBackcolor('white')">
             <button>
               <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
                 width="32" height="32"
@@ -88,6 +88,11 @@
       </div>
     </div>
 
+    <script>
+      function chBackcolor(color) {
+        document.body.style.background = color;
+      }
+    </script>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" 
       integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous">
