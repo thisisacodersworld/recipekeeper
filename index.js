@@ -55,7 +55,7 @@ if(xhr.readyState === 4){
             item += `</div>`;
             item += `<div class="col-7">`;
             item += `<p class="fw-bold">${recipe[i].name}</p>`;
-            item += `<p>${recipe[i].description}</p>`;
+            item += `<p class="description">${recipe[i].description}</p>`;
             item += `</div>`;
             item += `</div>`;
             item += `</div>`;
