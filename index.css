@@ -1,0 +1,52 @@
+#menu {
+    height: 100vh;
+    background-color: black;
+}
+
+img {
+    background-color: white;
+    border-radius: 20px;
+}
+
+button {
+    height: 12vh;
+    background-color: transparent;
+    border: none;
+    text-align: center;
+    font-weight: bold;
+}
+
+#items {
+    height: 45vh;
+    font-size: 14px;
+    overflow-y: scroll;
+    scrollbar-color: white;
+}
+
+.customer {
+    font-size: 12px;
+}
+
+.selction {
+    margin: 0 15%;
+}
+
+.selction button {
+    color: white;
+}
+
+.selction:active {
+    background-color: white;
+    width: 100%;
+    border-radius: 35px;
+    margin-left: 0px;
+}
+
+.selction:active button {
+    color: black;
+    padding-left: 25%;
+}
+
+.description {
+    font-size: 12px;
+}
