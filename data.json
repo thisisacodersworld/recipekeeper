@@ -21,7 +21,7 @@
 
     {
         "name": "GRILLED CHICKEN",
-        "description": "Chicken cooked in gravy and strong tomato coconut souce",
+        "description": "Chicken cooked in gravy and strong tomato coconut souce.",
         "price": "$22",
         "rating": "",
         "review": "",
@@ -31,7 +31,7 @@
 
     {
         "name": "MARINATED KING FISH",
-        "description": "Grilled king fish, Mexican style, served with tomato salsa",
+        "description": "Grilled king fish, Mexican style, served with tomato salsa.",
         "price": "$232",
         "rating": "",
         "review": "",
@@ -41,7 +41,7 @@
 
     {
         "name": "PRAWNS TEMPURA",
-        "description": "Deep fried prowns in butter served with ginger & chilli souce",
+        "description": "Deep fried prowns in butter served with ginger & chilli souce.",
         "price": "$25",
         "rating": "",
         "review": "",

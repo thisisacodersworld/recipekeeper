@@ -7,22 +7,16 @@ if(xhr.readyState === 4){
     var item3 = "";
     for(var i = 0; i < recipe.length; i++){
         if(recipe[i].featured === true){
-            //item2 += `<div class="mb-5" style="background: url(${recipe[i].image}); height:30vh; width: 10vw; border-radius: 25px"></div>`;
-            item2 += `<img class="mb-5" src=${recipe[i].image} style="height:47vh; width: 34vw; border-radius: 25px"/>`;
-            // item2 += `<div class="col-sm-10 col-md-6 col-lg-4">
-            // <div class="row">`;
-            // item2 += `<div class="row">`;
-            // item2 += `<div class="col-4">`;
-            // item2 += `<img style="width: 100px; height: 100px" src="${recipe[i].image}"/>`;
-            // item2 += `</div>`;
-            // item2 += `<div class="col-8">`;
-            // item2 += `<p class="fw-bold">${recipe[i].name}</p>`;
-            // item2 += `<p>${recipe[i].description}</p>`;
-            // item2 += `</div>`;
-            // item2 += `</div>`;
-            // item2 += `</div>`;
+            item2 += `<img class="mb-4" src=${recipe[i].image} style="height:47vh; width: 34vw; border-radius: 25px"/>`;
+            item2 += `<div class="overlay-desc">`;
+            item2 += `<p class="overlay-p">Featured</p>`;
+            item2 += `<div class="ftr-desc">`;
+            item2 += `<p class="ftr-name">${recipe[i].name}</p>`;
+            item2 += `<p class="ftr-d">${recipe[i].description}</p>`;
+            item2 += `</div>`;
+            item2 += `</div>`;
             document.getElementById("featured").innerHTML=item2;
-            item3 += `<div class="text-center pt-3 pb-2" style="border-radius: 20px 20px 0 0; background: #ECF0F1">
+            item3 += `<div class="text-center pt-3 pb-2">
             <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
             width="32" height="32"
             viewBox="0 0 172 172"
@@ -50,12 +44,13 @@ if(xhr.readyState === 4){
         }else{
             item += `<div class="col-sm-10 col-md-6 col-lg-4">`;
             item += `<div class="row">`;
-            item += `<div class="col-5">`;
+            item += `<div class="col-5 my-3">`;
             item += `<img style="width: 120px; height: 100px" src="${recipe[i].image}"/>`;
             item += `</div>`;
-            item += `<div class="col-7">`;
-            item += `<p class="fw-bold">${recipe[i].name}</p>`;
-            item += `<p class="description">${recipe[i].description}</p>`;
+            item += `<div class="data col-7">`;
+            item += `<p class="fw-bold mt-3 mb-0">${recipe[i].name}</p>`;
+            item += `<p class="description my-1">${recipe[i].description}</p>`;
+            item += `<a class="item-btn" href="https://justcook.butcherbox.com/recipes/" target="_blank">GO</a>`;
             item += `</div>`;
             item += `</div>`;
             item += `</div>`;
