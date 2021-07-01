@@ -127,5 +127,136 @@
         "review": "",
         "featured": false,
         "image": "https://www.courant.com/resizer/9jcQubE78uEOCZuJPe3B40y15QU=/1200x0/top/arc-anglerfish-arc2-prod-tronc.s3.amazonaws.com/public/5BGORBIJDVEI3IBKJVOOAKGP7Q.JPG"
+    },
+    
+    {
+        "name": "AVOCADO BRUNCH BOWL",
+        "description": "Saviory avocado bowl with vegetables and our secret dressing.",
+        "price": "$55",
+        "rating": "",
+        "review": "Cillum elit cupidatat aliqua non adipisicing esse pariatur fugiat eu eiusmod commodo. Sunt incididunt qui incididunt reprehenderit consectetur fugiat nostrud ex in ipsum sunt mollit culpa do. Magna irure proident sit nostrud sunt. Sint irure dolor ad ut reprehenderit mollit elit adipisicing duis quis ut. Velit occaecat commodo laboris occaecat ea mollit do sunt ad ea.",
+        "featured": true,
+        "image": "https://img1.cookinglight.timeinc.net/sites/default/files/styles/4_3_horizontal_-_900x694/public/image/2017/06/main/quinoa-bowls-avocado-egg-108p68.jpg?itok=Wky5GjDb"
+    },
+
+    {
+        "name": "FILLET STEAK",
+        "description": "With pepper, mustard, mushrum, ginger, garlic butter souce.",
+        "price": "$55",
+        "rating": "",
+        "review": "",
+        "featured": false,
+        "image": "https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_1200/hellofresh_s3/image/fillet-steak-972171c1.jpg"
+    },
+
+    {
+        "name": "GRILLED CHICKEN",
+        "description": "Chicken cooked in gravy and strong tomato coconut souce.",
+        "price": "$22",
+        "rating": "",
+        "review": "",
+        "featured": false,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzWKWMkz8xxgTIGcFb5ISPnNO7HrLExQMV2A&usqp=CAU"
+    },
+
+    {
+        "name": "MARINATED KING FISH",
+        "description": "Grilled king fish, Mexican style, served with tomato salsa.",
+        "price": "$232",
+        "rating": "",
+        "review": "",
+        "featured": false,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHvjWGYQhRQ5ndxsTEAllAUBMmPiGio2gVLg&usqp=CAU"
+    },
+
+    {
+        "name": "PRAWNS TEMPURA",
+        "description": "Deep fried prowns in butter served with ginger & chilli souce.",
+        "price": "$25",
+        "rating": "",
+        "review": "",
+        "featured": false,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaVVQ8R3wPFRbpPshFmM6jNDgGizW-6URTOg&usqp=CAU"
+    },
+        
+    {
+        "name": "CHICKEN SCHNITZEL",
+        "description": "Golden fried crumbed chicken breasts.",
+        "price": "$18",
+        "rating": "",
+        "review": "",
+        "featured": false,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5kGWHxJ8ZvUOlPb9P3cOLRb9F68HDgIPhyA&usqp=CAU"
+    },
+
+    {
+        "name": "CEAZAR CHICKEN",
+        "description": "Diced chicken served in secret souce.",
+        "price": "$25",
+        "rating": "",
+        "review": "",
+        "featured": false,
+        "image": "https://assets.bonappetit.com/photos/5f32b10ad8a686d03a8e3087/1:1/w_2560%2Cc_limit/Caesar-Salad-Roast-Chicken.jpg"
+    },
+
+    {
+        "name": "STEAK SKEWERS",
+        "description": "Marinated beef skewers served with barbeque sauce.",
+        "price": "$18",
+        "rating": "",
+        "review": "",
+        "featured": false,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEOSsNXjrKTzI3cnWx5H1E-CBel-uj7-Dz7A&usqp=CAU"
+    },
+
+    {
+        "name": "GRILLED FISH FILLETS",
+        "description": "Fish fillets in lemon butter souce.",
+        "price": "$28",
+        "rating": "",
+        "review": "",
+        "featured": false,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8gHQz9sLTANbjRsi2Wf7uvljv_ZXLrrkUxQ&usqp=CAU"
+    },
+
+    {
+        "name": "STEAMED LOBSTER",
+        "description": "Freshly steamed lobster, served with preferred souces and sides.",
+        "price": "$232",
+        "rating": "",
+        "review": "",
+        "featured": false,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPvxM1t6tQgubCsPS0F-J6du9CsO9n83XomQ&usqp=CAU"
+    },
+
+    {
+        "name": "STEAK NACHOS",
+        "description": "Citrus slaw, orange-lime merinated steak, guajillo sauce, avocado aioli.",
+        "price": "$4.50",
+        "rating": "",
+        "review": "",
+        "featured": false,
+        "image": "https://www.courant.com/resizer/hqWrxDZzao1uz-loA6AfRnHH4qk=/415x277/top/arc-anglerfish-arc2-prod-tronc.s3.amazonaws.com/public/3RCB6SW37VDABG5T2MBW4O5LAQ.jpg"
+    },
+
+    {
+        "name": "FLATBREAD",
+        "description": "Andouille sausage, blackened chicken, peppers.",
+        "price": "$12.99",
+        "rating": "",
+        "review": "",
+        "featured": false,
+        "image": "https://pbs.twimg.com/media/DjEcuNyX4AAzjh6.jpg:large"
+    },
+
+    {
+        "name": "ATLANTIC SALMON",
+        "description": "Hand cutsalmon served with parmesan risotto and grilled asparagus.",
+        "price": "$20.99",
+        "rating": "",
+        "review": "",
+        "featured": false,
+        "image": "https://www.courant.com/resizer/9jcQubE78uEOCZuJPe3B40y15QU=/1200x0/top/arc-anglerfish-arc2-prod-tronc.s3.amazonaws.com/public/5BGORBIJDVEI3IBKJVOOAKGP7Q.JPG"
     }
+
 ]
