@@ -47,7 +47,8 @@
 
     #items {
         display: flex;
-        height: 50vh;
+        /* height: 50vh; */
+        max-height: 100vh;
         font-size: 14px;
 
         overflow-y: scroll;
@@ -99,6 +100,10 @@
 
     .description {
         font-size: 12px;
+    }
+
+    .featured-wrapper {
+        display: none;
     }
 
     #ratings div {
