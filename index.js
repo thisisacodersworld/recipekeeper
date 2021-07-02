@@ -42,10 +42,10 @@ if(xhr.readyState === 4){
             item3 += `<div class="bg-dark text-light px-3 py-4" style="border-radius: 0 0 20px 20px">${recipe[i].review}</div>`;
             document.getElementById('ratings').innerHTML = item3;
         }else{
-            item += `<div class="col-sm-12 col-md-6 col-lg-4">`;
-            item += `<div class="row">`;
-            item += `<div class="col-sm-6 col-md-5 col-lg-6 my-3">`;
-            item += `<img style="width: 120px; height: 100px" src="${recipe[i].image}"/>`;
+            item += `<div class="item col-sm-12 col-lg-6 col-xl-4">`;
+            item += `<div class="row my-3">`;
+            item += `<div class="col-sm-6 col-lg-6">`;
+            item += `<img style="max-width: 120px; min-width: 100px; max-height: 100px; min-height: 80px" src="${recipe[i].image}"/>`;
             item += `</div>`;
             item += `<div class="data col-sm-6 col-md-5 col-lg-6">`;
             item += `<p class="fw-bold mt-3 mb-0">${recipe[i].name}</p>`;
